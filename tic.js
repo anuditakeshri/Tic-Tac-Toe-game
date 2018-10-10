@@ -8,7 +8,6 @@ function showTic(){
     if(this.innerText.trim().length==0){
     this.innerText = isXorZero?"X":"0";
     isGameOver();
-    console.log("hi");
     isXorZero =!isXorZero; 
     }  
 }
@@ -89,7 +88,7 @@ function isGameOver(){
 function bindEvents(){
   buttons = document.querySelectorAll("button");
 for(let button of buttons){
-    button.addEventListener("click",showTic);   //event add kr re h vo sunega isiliye event listner naam h
+    button.addEventListener("click",showTic);   
 }
 }
 
