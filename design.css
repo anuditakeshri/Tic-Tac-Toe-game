@@ -1,0 +1,15 @@
+button{
+    width: 30%;
+    height: 100px;
+    background-color: aqua;
+    display: inline-block;
+    margin: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.row{
+    display: flex;
+}
+h2{
+    text-align: center;
+}
